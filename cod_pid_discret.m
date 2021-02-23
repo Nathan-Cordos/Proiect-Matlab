@@ -29,11 +29,11 @@ u_t2 = u + a_t2*(2*h*ti+h*h+4*td*ti)*coef+a_t1*(2*h*h-8*td*ti)*coef+a*(h*h+4*td*
 
 f(1) = u_t2;
 
-%salvam intrarile anterioare
+%salvam iesirile anterioare
 u = u_t1;
 u_t1 = u_t2;
 
-%salvam erorile anterioare
+%salvam intrarile anterioare
 a = a_t1;
 a_t1 = a_t2;
 
